@@ -452,6 +452,23 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
@@ -677,16 +694,6 @@
             "simple_modifications": [
                 {
                     "from": {
-                        "key_code": "backslash"
-                    },
-                    "to": [
-                        {
-                            "key_code": "delete_or_backspace"
-                        }
-                    ]
-                },
-                {
-                    "from": {
                         "key_code": "caps_lock"
                     },
                     "to": [
@@ -697,51 +704,11 @@
                 },
                 {
                     "from": {
-                        "key_code": "close_bracket"
+                        "key_code": "slash"
                     },
                     "to": [
                         {
-                            "key_code": "backslash"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "delete_or_backspace"
-                    },
-                    "to": [
-                        {
-                            "key_code": "delete_forward"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "left_command"
-                    },
-                    "to": [
-                        {
-                            "key_code": "left_option"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "left_option"
-                    },
-                    "to": [
-                        {
-                            "key_code": "left_command"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "open_bracket"
-                    },
-                    "to": [
-                        {
-                            "key_code": "hyphen"
+                            "key_code": "right_option"
                         }
                     ]
                 },
@@ -767,6 +734,26 @@
                 },
                 {
                     "from": {
+                        "key_code": "left_command"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_option"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "left_option"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_command"
+                        }
+                    ]
+                },
+                {
+                    "from": {
                         "key_code": "semicolon"
                     },
                     "to": [
@@ -777,11 +764,41 @@
                 },
                 {
                     "from": {
-                        "key_code": "slash"
+                        "key_code": "open_bracket"
                     },
                     "to": [
                         {
-                            "key_code": "right_option"
+                            "key_code": "hyphen"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "close_bracket"
+                    },
+                    "to": [
+                        {
+                            "key_code": "backslash"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "backslash"
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_or_backspace"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "delete_or_backspace"
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_forward"
                         }
                     ]
                 }
