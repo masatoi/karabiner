@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-mv ~/.config
+ ~/.config
 gh repo clone masatoi/karabiner
 ```
 
