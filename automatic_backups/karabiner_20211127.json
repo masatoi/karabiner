@@ -781,6 +781,16 @@
                 },
                 {
                     "from": {
+                        "key_code": "delete_or_backspace"
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_forward"
+                        }
+                    ]
+                },
+                {
+                    "from": {
                         "key_code": "left_command"
                     },
                     "to": [
