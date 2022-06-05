@@ -1,0 +1,42 @@
+{
+    "title": "for iTerm2 + AquaSKK",
+    "rules": [
+        {
+            "description": "for iTerm2 + AquaSKK
+
+Prepare:
+Write as below in ~/Library/Application Support/AquaSKK/keymap.conf
+
+SKK_JMODE		ctrl::l||ctrl::shift::l
+",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "l",
+                        "modifiers": {
+                            "control"
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "l",
+                            "modifiers": [
+                                "control", "shift"
+                            ]
+                        }
+                    ]
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

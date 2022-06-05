@@ -709,16 +709,6 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "non_us_pound"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "delete_or_backspace"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "right_control"
                             },
                             "to": [
@@ -734,6 +724,16 @@
                             "to": [
                                 {
                                     "key_code": "right_control"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "non_us_pound"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "delete_or_backspace"
                                 }
                             ]
                         }
