@@ -1,31 +1,28 @@
 {
-    "title": "for iTerm2 + AquaSKK",
+    "title": "for iTerm2 + AquaSKK (Ctrl+L -> Ctrl+Shift+L)",
     "rules": [
         {
-            "description": "for iTerm2 + AquaSKK
-
-Prepare:
-Write as below in ~/Library/Application Support/AquaSKK/keymap.conf
-
-SKK_JMODE		ctrl::l||ctrl::shift::l
-",
+            "description": "for iTerm2 + AquaSKK (Ctrl+L -> Ctrl+Shift+L)",
             "manipulators": [
                 {
                     "type": "basic",
                     "from": {
                         "key_code": "l",
                         "modifiers": {
-                            "control"
+                            "mandatory": [
+                                "control"
+                            ]
                         }
                     },
                     "to": [
                         {
                             "key_code": "l",
                             "modifiers": [
-                                "control", "shift"
+                                "control",
+                                "shift"
                             ]
                         }
-                    ]
+                    ],
                     "conditions": [
                         {
                             "type": "frontmost_application_if",
