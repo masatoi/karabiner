@@ -643,10 +643,38 @@
                     {
                         "description": "Window control",
                         "manipulators": [
-
                             {
                                 "from": {
-                                    "key_code": "home"
+                                    "key_code": "0"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "9"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "8"
                                 },
                                 "to": [
                                     {
@@ -654,7 +682,19 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "pointing_button": "button3"
+                                },
+                                "to": [
+                                    {
+                                        "pointing_button": "button1"
+                                    }
+                                ],
+                                "type": "basic"
                             }
+                            
                         ]
                     }
                 ]
@@ -744,16 +784,6 @@
                             "to": [
                                 {
                                     "key_code": "right_control"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "pointing_button": "button3"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "vk_none"
                                 }
                             ]
                         }
@@ -1000,16 +1030,6 @@
                 },
                 {
                     "from": {
-                        "key_code": "right_shift"
-                    },
-                    "to": [
-                        {
-                            "key_code": "right_command"
-                        }
-                    ]
-                },
-                {
-                    "from": {
                         "key_code": "semicolon"
                     },
                     "to": [
@@ -1025,6 +1045,16 @@
                     "to": [
                         {
                             "key_code": "right_option"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_shift"
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_command"
                         }
                     ]
                 }
