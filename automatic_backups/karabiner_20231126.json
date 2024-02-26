@@ -655,28 +655,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "C-i to Tab",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "i",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "tab",
-                                        "modifiers": []
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
@@ -851,28 +829,7 @@
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "pointing_button": "button4"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "mission_control"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "pointing_button": "button5"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "launchpad"
-                                }
-                            ]
-                        }
-                    ],
+                    "simple_modifications": [],
                     "treat_as_built_in_keyboard": false
                 },
                 {
@@ -889,11 +846,11 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "japanese_pc_nfer"
+                                "key_code": "right_option"
                             },
                             "to": [
                                 {
-                                    "key_code": "left_command"
+                                    "key_code": "right_control"
                                 }
                             ]
                         },
@@ -909,11 +866,11 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_option"
+                                "key_code": "japanese_pc_nfer"
                             },
                             "to": [
                                 {
-                                    "key_code": "right_control"
+                                    "key_code": "left_command"
                                 }
                             ]
                         }
