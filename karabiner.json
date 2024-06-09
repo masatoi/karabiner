@@ -603,6 +603,24 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+{
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f12",
+                                        "modifiers": [
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
