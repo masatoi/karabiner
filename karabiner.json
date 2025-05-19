@@ -79,6 +79,19 @@
                             },
                             {
                                 "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["right_option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
                                     "key_code": "a",
                                     "modifiers": { "mandatory": ["right_option"] }
                                 },
